@@ -1,0 +1,22 @@
+#key-selector {
+    ul {
+        display: flex;
+        flex-flow: column;
+        row-gap: 20px;
+
+        li {
+            font-size: 20px;
+            cursor: pointer;
+
+            &:hover,
+            &.active {
+                font-weight: bold;
+            }
+
+            &.disabled {
+                opacity: 0.7;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

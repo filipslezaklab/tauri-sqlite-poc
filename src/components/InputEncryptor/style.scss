@@ -1,0 +1,22 @@
+#encryptor {
+    .top {
+        display: flex;
+        flex-flow: row;
+        column-gap: 25px;
+    }
+
+    .encrypted {
+        font-size: 12px;
+        font-weight: 300;
+        color: red;
+        max-width: clamp(200px, 500px, 100%);
+        text-wrap: wrap;
+        overflow: hidden;
+
+        span {
+            color: black;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
